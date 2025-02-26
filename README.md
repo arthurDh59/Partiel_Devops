@@ -5,6 +5,10 @@ Ce dépôt contient un projet Python simple avec :
 - Des fonctions simples
 - Des tests unitaires pour valider le comportement de la fonction.
 
+##TEST
+![Tests](https://github.com/arthurDh59/Partiel_Devops/actions/workflows/PYtests.yml/badge.svg)
+![Linter](https://github.com/arthurDh59/Partiel_Devops/actions/workflows/linter.yml/badge.svg)
+
 ## Installation
 
 1. Clonez ce dépôt :
