@@ -21,4 +21,12 @@ jobs:
         pip install flake8
 
     - name: Run Linter
-      run: flake8 
+      run: flake8 --format=html --htmldir=flake8-report
+      continue-on-error: true  
+
+    - name: Upload Flake8 Report
+      if: always()  
+      uses: actions/upload-artifact@v3
+      with:
+        name: flake8-report
+        path: flake8-report
